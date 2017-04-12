@@ -1,0 +1,116 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+@font-face{
+	font-family: 'FRABK';
+	src: url("../font/FRABK.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+section#contenedor{
+	width: 960px;
+	height: auto;
+	margin: auto;
+	background-color: #ffffff;
+	position: relative;
+	font-family: "FRABK";
+}
+section#contenido{
+	background-color: #006680;
+	width: 960px;
+	margin-top: 0px;
+	font-family: "FRABK";
+	float: left;
+}
+
+body{
+	background-image: url("../img/foto.jpg");
+	font-family: "FRABK";
+}
+
+nav {
+	min-height: 40px;
+	font-size: 25px;
+	background-color: #fff;
+	margin: auto;
+	padding: 10px 15px;
+
+}
+
+ul li{
+	list-style: none;
+	display: block;
+	
+}
+
+a{
+	text-decoration: none;
+
+}
+
+aside{
+	width: 20%;
+	float: right;
+	background-color: #808080;
+}
+
+section{
+	padding: 0px;
+	margin: 0px;
+}
+article{
+	background-color: #F2B80D;
+	margin: 5px;
+	width: 78%;
+	float: left;
+}
+pre{
+		text-align: justify;
+}
+
+footer{
+	background-color: #808080; 
+	color:#fff;
+	margin: 2px;
+	padding: 2px;
+	font-family: Helvetica;
+}
+#derecha{
+	float: left;
+	width: 70%;
+}
+#izquierda{
+	float: right;
+	width: 30%;
+}
+.menu li a{
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	margin: 5px;
+	padding: 5px;
+}
+
+.menu li a:hover{
+	background-color: #434343;
+	#padding: 2px;
+}
+
+.menu > li{
+	float: left;
+}
+
+.menu li ul{
+	display: none;
+	position: absolute;
+	min-width: 100px;
+}
+
+.menu li:hover > ul{
+	display: block;
+}
+
